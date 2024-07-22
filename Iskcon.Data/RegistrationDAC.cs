@@ -15,6 +15,7 @@ namespace Iskcon.Data
             string photoPath = string.Empty;
             string signaturePath = string.Empty;
 
+
             photoPath = photo != null ? SaveImage(photo) : string.Empty;
             signaturePath = signature != null ? SaveImage(signature) : string.Empty;
 
