@@ -1,0 +1,6 @@
+@Iskcon_Api_HostAddress = http://localhost:5211
+
+GET {{Iskcon_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
